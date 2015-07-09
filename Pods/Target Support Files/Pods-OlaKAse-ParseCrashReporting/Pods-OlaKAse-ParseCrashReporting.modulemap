@@ -1,0 +1,6 @@
+framework module ParseCrashReporting {
+  umbrella header "Pods-OlaKAse-ParseCrashReporting-umbrella.h"
+
+  export *
+  module * { export * }
+}

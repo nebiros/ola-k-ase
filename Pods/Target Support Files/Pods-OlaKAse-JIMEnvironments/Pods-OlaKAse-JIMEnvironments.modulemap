@@ -1,0 +1,6 @@
+framework module JIMEnvironments {
+  umbrella header "Pods-OlaKAse-JIMEnvironments-umbrella.h"
+
+  export *
+  module * { export * }
+}

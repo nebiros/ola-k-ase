@@ -1,0 +1,54 @@
+PODS:
+  - Bolts (1.2.0):
+    - Bolts/AppLinks (= 1.2.0)
+    - Bolts/Tasks (= 1.2.0)
+  - Bolts/AppLinks (1.2.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.0)
+  - FBSDKCoreKit (4.3.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.3.0)
+    - FBSDKCoreKit/no-arc (= 4.3.0)
+  - FBSDKCoreKit/arc (4.3.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.3.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.3.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.3.0):
+    - FBSDKCoreKit
+  - JIMEnvironments (1.0.1)
+  - Parse (1.7.5):
+    - Bolts/Tasks (>= 1.2.0)
+  - ParseCrashReporting (1.7.5):
+    - Bolts/Tasks (>= 1.2.0)
+    - Parse (~> 1.7.5)
+  - ParseFacebookUtilsV4 (1.7.5):
+    - Bolts/Tasks (>= 1.2.0)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+    - Parse (~> 1.7.5)
+  - ParseUI (1.1.4):
+    - Parse (~> 1.7)
+
+DEPENDENCIES:
+  - FBSDKShareKit
+  - JIMEnvironments
+  - Parse
+  - ParseCrashReporting
+  - ParseFacebookUtilsV4
+  - ParseUI
+
+SPEC CHECKSUMS:
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  FBSDKCoreKit: a3a60225a84abeace291d0fe71cae29a627382c2
+  FBSDKLoginKit: 6bc2f8f2628c3b6d2e346762fff8cb55cfd3a58d
+  FBSDKShareKit: 15806d69714de39d5dff2c84645f4cde23f5876e
+  JIMEnvironments: 0257e5fc28f349a604c7b0ad3f7bc2f01199e344
+  Parse: 7c0f115eff3e0cea3fac08d50bda47154edb8832
+  ParseCrashReporting: 504b77a57d0619f8099061c11d323877e681a184
+  ParseFacebookUtilsV4: 3107725c6f2b69e3a03afe9c3aff35d6ee3e9ba5
+  ParseUI: d1228541b02a36a7354c8f47747f5f7a89cf1ff0
+
+COCOAPODS: 0.37.2

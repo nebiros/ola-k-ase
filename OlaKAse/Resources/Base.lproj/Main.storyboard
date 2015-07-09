@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8152.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="P6E-Cm-qKA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Friends-->
+        <scene sceneID="hxc-hG-a9f">
+            <objects>
+                <tableViewController id="pCj-cG-wMo" customClass="FriendsQueryTableViewController" customModule="OlaKAse" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hPo-ir-w1D">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="rHe-Ow-4eV">
+                                <rect key="frame" x="0.0" y="86" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rHe-Ow-4eV" id="EPk-eI-X13">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pCj-cG-wMo" id="sUf-9S-cK9"/>
+                            <outlet property="delegate" destination="pCj-cG-wMo" id="Xci-wC-PcI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My Friends" id="lDy-sj-Zf0">
+                        <barButtonItem key="leftBarButtonItem" title="Login" id="MSs-OE-vaR">
+                            <connections>
+                                <action selector="loginBarButtonTapped" destination="pCj-cG-wMo" id="gFn-Qw-DAi"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="9b7-Eq-Z5Y">
+                                <connections>
+                                    <action selector="addBarButtonTapped:" destination="pCj-cG-wMo" id="ffM-3M-Svg"/>
+                                    <segue destination="hyp-hJ-hQg" kind="presentation" id="8FV-so-oiI"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Invite" id="ZA5-ke-7xM">
+                                <connections>
+                                    <action selector="inviteBarButtonTapped:" destination="pCj-cG-wMo" id="kVv-RB-VZa"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addBarButton" destination="9b7-Eq-Z5Y" id="V5E-Xa-pIE"/>
+                        <outlet property="inviteBarButton" destination="ZA5-ke-7xM" id="vNW-jb-PRv"/>
+                        <outlet property="loginBarButton" destination="MSs-OE-vaR" id="f5d-R6-kNL"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M8l-U6-v7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-134" y="432"/>
+        </scene>
+        <!--Add Friends Collection View Controller-->
+        <scene sceneID="1CF-Gb-HvO">
+            <objects>
+                <collectionViewController id="hyp-hJ-hQg" customClass="AddFriendsCollectionViewController" customModule="OlaKAse" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ZTs-YI-e5B">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bMJ-dj-7mf" customClass="SpringFlowLayout" customModule="OlaKAse" customModuleProvider="target">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QQE-zi-1jC">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="hyp-hJ-hQg" id="ygH-T9-ZAN"/>
+                            <outlet property="delegate" destination="hyp-hJ-hQg" id="isU-E8-xdr"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJt-0d-Suo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="615" y="-229"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WMQ-Za-LSI">
+            <objects>
+                <navigationController id="P6E-Cm-qKA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zf0-Db-0XQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pCj-cG-wMo" kind="relationship" relationship="rootViewController" id="kKy-bi-DGy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c6K-q5-CuO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-954" y="432"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F71081B33881700056033 /* FriendsQueryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F71071B33881700056033 /* FriendsQueryTableViewController.swift */; };
+		041201961B30E9E20057865B /* OlaKAseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041201951B30E9E20057865B /* OlaKAseTests.swift */; };
+		041201A11B30E9E20057865B /* OlaKAseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041201A01B30E9E20057865B /* OlaKAseUITests.swift */; };
+		0431F35C1B4DFF3600DE32CA /* SpringFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431F35B1B4DFF3600DE32CA /* SpringFlowLayout.swift */; };
+		0467200D1B30FB8400039F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04671FFF1B30FB8400039F6E /* AppDelegate.swift */; };
+		046720101B30FB8400039F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046720081B30FB8400039F6E /* Assets.xcassets */; };
+		046720111B30FB8400039F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046720091B30FB8400039F6E /* LaunchScreen.storyboard */; };
+		046720121B30FB8400039F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0467200B1B30FB8400039F6E /* Main.storyboard */; };
+		04A5A3F11B38C50B00A55033 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5A3F01B38C50B00A55033 /* User.swift */; };
+		04A5A3F31B38C96D00A55033 /* Environments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A5A3F21B38C96D00A55033 /* Environments.plist */; };
+		04BE80531B3B9BDC00CD68DA /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE80521B3B9BDC00CD68DA /* Friend.swift */; };
+		04EEFBFD1B4CB13E00754D91 /* AddFriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEFBFC1B4CB13E00754D91 /* AddFriendsCollectionViewController.swift */; };
+		A9E4FC57388A8A1B6EE4A0E9 /* Pods_OlaKAse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF61016BD07CE74B64E754B2 /* Pods_OlaKAse.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041201921B30E9E20057865B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041201751B30E9E10057865B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0412017C1B30E9E10057865B;
+			remoteInfo = OlaKAse;
+		};
+		0412019D1B30E9E20057865B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041201751B30E9E10057865B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0412017C1B30E9E10057865B;
+			remoteInfo = OlaKAse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F71071B33881700056033 /* FriendsQueryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsQueryTableViewController.swift; sourceTree = "<group>"; };
+		040F71091B338D1300056033 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Pods-OlaKAse/Parse.framework"; sourceTree = "<group>"; };
+		040F710B1B338D1D00056033 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Pods-OlaKAse/Bolts.framework"; sourceTree = "<group>"; };
+		040F710D1B338D2400056033 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Pods/../build/Debug-iphoneos/Pods-OlaKAse/ParseUI.framework"; sourceTree = "<group>"; };
+		0412017D1B30E9E10057865B /* OlaKAse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaKAse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041201911B30E9E10057865B /* OlaKAseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlaKAseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041201951B30E9E20057865B /* OlaKAseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlaKAseTests.swift; sourceTree = "<group>"; };
+		041201971B30E9E20057865B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0412019C1B30E9E20057865B /* OlaKAseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlaKAseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041201A01B30E9E20057865B /* OlaKAseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlaKAseUITests.swift; sourceTree = "<group>"; };
+		041201A21B30E9E20057865B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0431F35B1B4DFF3600DE32CA /* SpringFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringFlowLayout.swift; sourceTree = "<group>"; };
+		04671FFF1B30FB8400039F6E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046720061B30FB8400039F6E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046720081B30FB8400039F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0467200A1B30FB8400039F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0467200C1B30FB8400039F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A5A3F01B38C50B00A55033 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04A5A3F21B38C96D00A55033 /* Environments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Environments.plist; sourceTree = "<group>"; };
+		04BE80521B3B9BDC00CD68DA /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		04EEFBFC1B4CB13E00754D91 /* AddFriendsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsCollectionViewController.swift; sourceTree = "<group>"; };
+		57BBD1F37CC78A38C99CCF9A /* Pods-OlaKAse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlaKAse.release.xcconfig"; path = "Pods/Target Support Files/Pods-OlaKAse/Pods-OlaKAse.release.xcconfig"; sourceTree = "<group>"; };
+		6EA52302E5D41CD0E9F7E285 /* Pods-OlaKAse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlaKAse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OlaKAse/Pods-OlaKAse.debug.xcconfig"; sourceTree = "<group>"; };
+		BF61016BD07CE74B64E754B2 /* Pods_OlaKAse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OlaKAse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0412017A1B30E9E10057865B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E4FC57388A8A1B6EE4A0E9 /* Pods_OlaKAse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0412018E1B30E9E10057865B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041201991B30E9E20057865B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041201741B30E9E10057865B = {
+			isa = PBXGroup;
+			children = (
+				04671FFD1B30FB8400039F6E /* OlaKAse */,
+				041201941B30E9E20057865B /* OlaKAseTests */,
+				0412019F1B30E9E20057865B /* OlaKAseUITests */,
+				0412017E1B30E9E10057865B /* Products */,
+				5AE2185BF2D6F5C0FE0A2B2D /* Pods */,
+				D8F1E059A2EFE482F2D0E1D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0412017E1B30E9E10057865B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0412017D1B30E9E10057865B /* OlaKAse.app */,
+				041201911B30E9E10057865B /* OlaKAseTests.xctest */,
+				0412019C1B30E9E20057865B /* OlaKAseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041201941B30E9E20057865B /* OlaKAseTests */ = {
+			isa = PBXGroup;
+			children = (
+				041201951B30E9E20057865B /* OlaKAseTests.swift */,
+				041201971B30E9E20057865B /* Info.plist */,
+			);
+			path = OlaKAseTests;
+			sourceTree = "<group>";
+		};
+		0412019F1B30E9E20057865B /* OlaKAseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				041201A01B30E9E20057865B /* OlaKAseUITests.swift */,
+				041201A21B30E9E20057865B /* Info.plist */,
+			);
+			path = OlaKAseUITests;
+			sourceTree = "<group>";
+		};
+		0431F35A1B4DFEF800DE32CA /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				0431F35B1B4DFF3600DE32CA /* SpringFlowLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		04671FFD1B30FB8400039F6E /* OlaKAse */ = {
+			isa = PBXGroup;
+			children = (
+				04A5A3F21B38C96D00A55033 /* Environments.plist */,
+				04671FFE1B30FB8400039F6E /* Classes */,
+				046720051B30FB8400039F6E /* Externals */,
+				046720061B30FB8400039F6E /* Info.plist */,
+				046720071B30FB8400039F6E /* Resources */,
+			);
+			path = OlaKAse;
+			sourceTree = "<group>";
+		};
+		04671FFE1B30FB8400039F6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04671FFF1B30FB8400039F6E /* AppDelegate.swift */,
+				0431F35A1B4DFEF800DE32CA /* Layouts */,
+				046720001B30FB8400039F6E /* Controllers */,
+				046720021B30FB8400039F6E /* Helpers */,
+				046720031B30FB8400039F6E /* Models */,
+				046720041B30FB8400039F6E /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		046720001B30FB8400039F6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				040F71071B33881700056033 /* FriendsQueryTableViewController.swift */,
+				04EEFBFC1B4CB13E00754D91 /* AddFriendsCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		046720021B30FB8400039F6E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		046720031B30FB8400039F6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A5A3F01B38C50B00A55033 /* User.swift */,
+				04BE80521B3B9BDC00CD68DA /* Friend.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		046720041B30FB8400039F6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		046720051B30FB8400039F6E /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		046720071B30FB8400039F6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				046720081B30FB8400039F6E /* Assets.xcassets */,
+				046720091B30FB8400039F6E /* LaunchScreen.storyboard */,
+				0467200B1B30FB8400039F6E /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AE2185BF2D6F5C0FE0A2B2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EA52302E5D41CD0E9F7E285 /* Pods-OlaKAse.debug.xcconfig */,
+				57BBD1F37CC78A38C99CCF9A /* Pods-OlaKAse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8F1E059A2EFE482F2D0E1D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040F710D1B338D2400056033 /* ParseUI.framework */,
+				040F710B1B338D1D00056033 /* Bolts.framework */,
+				040F71091B338D1300056033 /* Parse.framework */,
+				BF61016BD07CE74B64E754B2 /* Pods_OlaKAse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0412017C1B30E9E10057865B /* OlaKAse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041201A51B30E9E20057865B /* Build configuration list for PBXNativeTarget "OlaKAse" */;
+			buildPhases = (
+				7F6835E76064709343BBB3D5 /* Check Pods Manifest.lock */,
+				041201791B30E9E10057865B /* Sources */,
+				0412017A1B30E9E10057865B /* Frameworks */,
+				0412017B1B30E9E10057865B /* Resources */,
+				EFD469AD5E92D9BCB2D76910 /* Copy Pods Resources */,
+				2114CC093BC8553A528B8FF5 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaKAse;
+			productName = OlaKAse;
+			productReference = 0412017D1B30E9E10057865B /* OlaKAse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041201901B30E9E10057865B /* OlaKAseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041201A81B30E9E20057865B /* Build configuration list for PBXNativeTarget "OlaKAseTests" */;
+			buildPhases = (
+				0412018D1B30E9E10057865B /* Sources */,
+				0412018E1B30E9E10057865B /* Frameworks */,
+				0412018F1B30E9E10057865B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041201931B30E9E20057865B /* PBXTargetDependency */,
+			);
+			name = OlaKAseTests;
+			productName = OlaKAseTests;
+			productReference = 041201911B30E9E10057865B /* OlaKAseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0412019B1B30E9E20057865B /* OlaKAseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041201AB1B30E9E20057865B /* Build configuration list for PBXNativeTarget "OlaKAseUITests" */;
+			buildPhases = (
+				041201981B30E9E20057865B /* Sources */,
+				041201991B30E9E20057865B /* Frameworks */,
+				0412019A1B30E9E20057865B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0412019E1B30E9E20057865B /* PBXTargetDependency */,
+			);
+			name = OlaKAseUITests;
+			productName = OlaKAseUITests;
+			productReference = 0412019C1B30E9E20057865B /* OlaKAseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041201751B30E9E10057865B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Juan Felipe Alvarez Saldarriaga";
+				TargetAttributes = {
+					0412017C1B30E9E10057865B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HHA7B8A9NM;
+					};
+					041201901B30E9E10057865B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0412017C1B30E9E10057865B;
+					};
+					0412019B1B30E9E20057865B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0412017C1B30E9E10057865B;
+					};
+				};
+			};
+			buildConfigurationList = 041201781B30E9E10057865B /* Build configuration list for PBXProject "OlaKAse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041201741B30E9E10057865B;
+			productRefGroup = 0412017E1B30E9E10057865B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0412017C1B30E9E10057865B /* OlaKAse */,
+				041201901B30E9E10057865B /* OlaKAseTests */,
+				0412019B1B30E9E20057865B /* OlaKAseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0412017B1B30E9E10057865B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A5A3F31B38C96D00A55033 /* Environments.plist in Resources */,
+				046720111B30FB8400039F6E /* LaunchScreen.storyboard in Resources */,
+				046720101B30FB8400039F6E /* Assets.xcassets in Resources */,
+				046720121B30FB8400039F6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0412018F1B30E9E10057865B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0412019A1B30E9E20057865B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2114CC093BC8553A528B8FF5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlaKAse/Pods-OlaKAse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6835E76064709343BBB3D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD469AD5E92D9BCB2D76910 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlaKAse/Pods-OlaKAse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041201791B30E9E10057865B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EEFBFD1B4CB13E00754D91 /* AddFriendsCollectionViewController.swift in Sources */,
+				04A5A3F11B38C50B00A55033 /* User.swift in Sources */,
+				0431F35C1B4DFF3600DE32CA /* SpringFlowLayout.swift in Sources */,
+				040F71081B33881700056033 /* FriendsQueryTableViewController.swift in Sources */,
+				04BE80531B3B9BDC00CD68DA /* Friend.swift in Sources */,
+				0467200D1B30FB8400039F6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0412018D1B30E9E10057865B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041201961B30E9E20057865B /* OlaKAseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041201981B30E9E20057865B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041201A11B30E9E20057865B /* OlaKAseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041201931B30E9E20057865B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0412017C1B30E9E10057865B /* OlaKAse */;
+			targetProxy = 041201921B30E9E20057865B /* PBXContainerItemProxy */;
+		};
+		0412019E1B30E9E20057865B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0412017C1B30E9E10057865B /* OlaKAse */;
+			targetProxy = 0412019D1B30E9E20057865B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046720091B30FB8400039F6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0467200A1B30FB8400039F6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0467200B1B30FB8400039F6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0467200C1B30FB8400039F6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041201A31B30E9E20057865B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041201A41B30E9E20057865B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041201A61B30E9E20057865B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA52302E5D41CD0E9F7E285 /* Pods-OlaKAse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = OlaKAse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.juan.OlaKAse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		041201A71B30E9E20057865B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BBD1F37CC78A38C99CCF9A /* Pods-OlaKAse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = OlaKAse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.juan.OlaKAse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		041201A91B30E9E20057865B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OlaKAseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.juan.OlaKAseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OlaKAse.app/OlaKAse";
+			};
+			name = Debug;
+		};
+		041201AA1B30E9E20057865B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OlaKAseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.juan.OlaKAseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OlaKAse.app/OlaKAse";
+			};
+			name = Release;
+		};
+		041201AC1B30E9E20057865B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OlaKAseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.juan.OlaKAseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OlaKAse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		041201AD1B30E9E20057865B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OlaKAseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.juan.OlaKAseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OlaKAse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041201781B30E9E10057865B /* Build configuration list for PBXProject "OlaKAse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041201A31B30E9E20057865B /* Debug */,
+				041201A41B30E9E20057865B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041201A51B30E9E20057865B /* Build configuration list for PBXNativeTarget "OlaKAse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041201A61B30E9E20057865B /* Debug */,
+				041201A71B30E9E20057865B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041201A81B30E9E20057865B /* Build configuration list for PBXNativeTarget "OlaKAseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041201A91B30E9E20057865B /* Debug */,
+				041201AA1B30E9E20057865B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041201AB1B30E9E20057865B /* Build configuration list for PBXNativeTarget "OlaKAseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041201AC1B30E9E20057865B /* Debug */,
+				041201AD1B30E9E20057865B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041201751B30E9E10057865B /* Project object */;
+}
